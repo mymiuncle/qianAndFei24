@@ -1,0 +1,1843 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>倩倩与阿飞🏹💗</title>
+    <link rel="stylesheet" href="https://memotrace.cn/static/css/style.css">
+    <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5.5.0/dist/echarts.min.js"></script>
+    <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/echarts-wordcloud.min.js"></script>
+    <link rel="stylesheet" href="https://memotrace.cn/static/css/fullpage.min.css" />
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script type="text/javascript" src="https://memotrace.cn/static/js/fullpage.min.js"></script>
+    <script type="text/javascript" src="https://davidshimjs.github.io/qrcodejs/qrcode.min.js"></script>
+</head>
+
+<body style="background-color: #f9d8de;">
+    <div id="snow"></div>
+    <!-- Your content goes here -->
+    <div id="fullpage">
+        <div class="section">
+            <div>
+                <img class="Mountain-Image" src="https://www.freeimg.cn/i/2023/12/20/6582c04711cd2.png" alt="Mountain Image">
+                <img class="corner-light light-top-left" src="https://www.freeimg.cn/i/2023/12/20/6582c05d9dcbb.png" alt="Top Left Light">
+                <img class="corner-light light-top-right" src="https://www.freeimg.cn/i/2023/12/20/6582c07b257db.png" alt="Bottom Right Light">
+                <img src="avatar/rabbit.png" alt="Left Bottom Image" class="corner-image left-bottom">
+                <img src="https://www.freeimg.cn/i/2023/12/20/6582c04946138.png" alt="Right Top Image" class="corner-image right-bottom">
+
+                <div class="center-container">
+                    <div>
+                        <img src="https://www.freeimg.cn/i/2023/12/20/6582c05a78e58.png">
+                    </div>
+                    <div class="user-container">
+                        <div class="user">
+                            <img class="avatar" src="avatar/fei.png">
+                            <span class="nickname">鹏飞</span>
+                        </div>
+
+                        <img src="avatar/love.png" style="height: 4rem" alt="Right Top Image" class="spliter-img">
+                        <div class="user">
+                            <img class="avatar" src="http://wx.qlogo.cn/mmhead/ver_1/IR3IkwBib2zicA77SsgibgKP9Ex2Rq6mUJsbWo3zmbuH0gibzEm0szh4WuVzBYsQA96sJwu9MRfrJkExV28S30N5CibpSLpxmm4Voz81WL8qLWGJUoJrSPYm39Gx3kicMwY5e7/132">
+                            <span class="nickname">文倩</span>
+                        </div>
+                    </div>
+                    <div>
+                        <p class="mt-3">我们第一次聊天在</p>
+                        <p id="first_time" class="first-time">2023-12-16 20:45:44</p>
+                        <p class="mt-3">距今已有</p>
+                        <div class="mt-3">
+                            <span id="t_d"></span>
+                            <span id="t_h"></span>
+                            <span id="t_m"></span>
+                            <span id="t_s"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div>
+                <img class="Mountain-Image" src="https://www.freeimg.cn/i/2023/12/20/6582c04711cd2.png" alt="Mountain Image">
+                <img class="corner-light light-top-left" src="https://www.freeimg.cn/i/2023/12/20/6582c05d9dcbb.png" alt="Top Left Light">
+                <img class="corner-light light-top-right" src="https://www.freeimg.cn/i/2023/12/20/6582c07b257db.png" alt="Bottom Right Light">
+                <img src="avatar/qinqin.png" alt="亲亲" class="corner-image right-bottom-oldman">
+            </div>
+            <div class="wordcloud" style="margin-left: -100px;">
+                <div id="word_cloud" class="chart-container"></div>
+            </div>
+            <div class="keyword-container">
+                <div class="tp1">二〇二四</div>
+                <div class="tp1">我们说的最多的是</div>
+                <div class="keyword">“亲亲”<span class="keyword-num">205</span><span class="tp1">次</span></div>
+            </div>
+            <div class="dialog-container">
+
+                <div class="item item-center">2024-03-14 11:20:41</div>
+
+                <div class="item item-left">
+                    <img class="bubble-avatar" src="http://wx.qlogo.cn/mmhead/ver_1/IR3IkwBib2zicA77SsgibgKP9Ex2Rq6mUJsbWo3zmbuH0gibzEm0szh4WuVzBYsQA96sJwu9MRfrJkExV28S30N5CibpSLpxmm4Voz81WL8qLWGJUoJrSPYm39Gx3kicMwY5e7/132">
+                    <div class="bubble bubble-left">
+
+                        天天抱抱<span style="color:red">亲亲</span>
+
+
+                    </div>
+                </div>
+                <div class="item item-right">
+                    <div class="bubble bubble-right">
+                        我感觉穿你昨天那些衣服刚好
+                    </div>
+                    <img class="bubble-avatar" src="avatar/fei.png">
+                </div>
+
+
+
+                <div class="item item-center">2024-04-26 21:52:50</div>
+
+                <div class="item item-left">
+                    <img class="bubble-avatar" src="http://wx.qlogo.cn/mmhead/ver_1/IR3IkwBib2zicA77SsgibgKP9Ex2Rq6mUJsbWo3zmbuH0gibzEm0szh4WuVzBYsQA96sJwu9MRfrJkExV28S30N5CibpSLpxmm4Voz81WL8qLWGJUoJrSPYm39Gx3kicMwY5e7/132">
+                    <div class="bubble bubble-left">
+
+                        <span style="color:red">亲亲</span>
+                    </div>
+                </div>
+                <div class="item item-right">
+                    <div class="bubble bubble-right">
+                        快快休息吧亲爱的
+                    </div>
+                    <img class="bubble-avatar" src="avatar/fei.png">
+                </div>
+
+
+
+                <div class="item item-center">2024-03-19 09:21:12</div>
+
+                <div class="item item-left">
+                    <img class="bubble-avatar" src="http://wx.qlogo.cn/mmhead/ver_1/IR3IkwBib2zicA77SsgibgKP9Ex2Rq6mUJsbWo3zmbuH0gibzEm0szh4WuVzBYsQA96sJwu9MRfrJkExV28S30N5CibpSLpxmm4Voz81WL8qLWGJUoJrSPYm39Gx3kicMwY5e7/132">
+                    <div class="bubble bubble-left">
+
+                        <span style="color:red">亲亲</span>
+                    </div>
+                </div>
+                <div class="item item-right">
+                    <div class="bubble bubble-right">
+                        宝我在一楼等你
+                    </div>
+                    <img class="bubble-avatar" src="avatar/fei.png">
+                </div>
+
+
+
+            </div>
+        </div>
+        <div class="section">
+            <div>
+                <img class="Mountain-Image" src="https://www.freeimg.cn/i/2023/12/20/6582c04711cd2.png" alt="Mountain Image">
+                <img class="corner-light light-top-left txt" src="https://www.freeimg.cn/i/2023/12/20/6582c05d9dcbb.png" alt="Top Left Light">
+                <img class="corner-light light-top-right txt" src="https://www.freeimg.cn/i/2023/12/20/6582c07b257db.png" alt="Bottom Right Light">
+                <img src="avatar/cry.png" alt="Right Top Image" class="corner-image right-bottom" style="max-height: 500px;">
+                <div class="time-container">
+                    <div class="text112">2024-03-03 02:24:17</div>
+                    <div class="text112">这么晚了我们还在聊天</div>
+                    <div class="text112">那天一定有我们<span style="color: brown;">难忘的回忆</span>吧</div>
+                    <div><br></div>
+                </div>
+                <div class="parent">
+                    <div class="dialog-container-time">
+                        <div class="item item-center">2024-03-03 02:24:17</div>
+
+
+                        <div class="item item-left">
+                            <img class="bubble-avatar" src="http://wx.qlogo.cn/mmhead/ver_1/IR3IkwBib2zicA77SsgibgKP9Ex2Rq6mUJsbWo3zmbuH0gibzEm0szh4WuVzBYsQA96sJwu9MRfrJkExV28S30N5CibpSLpxmm4Voz81WL8qLWGJUoJrSPYm39Gx3kicMwY5e7/132">
+                            <div class="bubble bubble-left">
+                                ok
+                            </div>
+                        </div>
+                        <div class="item item-right">
+                            <div class="bubble bubble-right">
+                                有空再出来玩玩吧
+                            </div>
+                            <img class="bubble-avatar" src="avatar/fei.png">
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div>
+                <img class="Mountain-Image" src="https://www.freeimg.cn/i/2023/12/20/6582c04711cd2.png" alt="Mountain Image">
+                <img class="corner-light light-top-left txt" src="https://www.freeimg.cn/i/2023/12/20/6582c05d9dcbb.png" alt="Top Left Light">
+                <img class="corner-light light-top-right txt" src="https://www.freeimg.cn/i/2023/12/20/6582c07b257db.png" alt="Bottom Right Light">
+                <img src="https://www.freeimg.cn/i/2023/12/20/6582c03ce4548.png" alt="Left Bottom Image" class="corner-image left-bottom">
+                <img src="https://www.freeimg.cn/i/2023/12/20/6582c05a9a4bd.png" alt="滑雪的小女孩" class="corner-image right-bottom">
+                <img src="https://memotrace.cn/static/img/礼盒1.png" alt="Right Top Image" class="ttq">
+                <div class="time-container">
+                    <div class="text112">过去的一年里</div>
+                    <div class="text112">我们一共发送了<span style="color: brown;">8031</span>条消息</div>
+                    <div class="text112">总计<span style="color: brown;">55707</span>字</div>
+                    <div><br></div>
+                    <div class="text112">我们的微信聊天似乎没有规律</div>
+                    <div class="text112">但是抖音保持着每日聊天并且聊天内容有点刺激</div>
+                    <div class="text112">
+                        <span style="color: brown;">3月</span> 一共发送了
+                        <span style="color: brown;">2450</span> 条消息
+                    </div>
+                    <div class="text112">对你的话说不完</div>
+                    <div><br></div>
+                    <div class="text112">
+                        <span style="color: brown;">12月</span> 只有
+                        <span style="color: brown;">631</span> 条消息
+                    </div>
+                    <div class="text112">刚认识可能有一点害羞吧</div>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div>
+                <img class="Mountain-Image" src="https://www.freeimg.cn/i/2023/12/20/6582c04711cd2.png" alt="Mountain Image">
+                <img class="corner-light light-top-left txt" src="https://www.freeimg.cn/i/2023/12/20/6582c05d9dcbb.png" alt="Top Left Light">
+                <img class="corner-light light-top-right txt" src="https://www.freeimg.cn/i/2023/12/20/6582c07b257db.png" alt="Bottom Right Light">
+                <img src="https://www.freeimg.cn/i/2023/12/20/6582c064276db.png" alt="包饺子" class="corner-image left-bottom">
+                <img src="https://www.freeimg.cn/i/2023/12/21/658313714609b.png" alt="Right Top Image" class="corner-image right-bottom">
+                <div class="calendar-container">
+                    <div class="text012">2023 - 2024年</div>
+                    <div class="text012">
+                        我们有
+                        <span style="color: brown;">150</span> 天在聊天
+                    </div>
+                    <div class="text012">有宝在的日子里</div>
+                    <div class="text012">
+                        都很有
+                        <span style="color: brown;">意义</span>！
+                    </div>
+                    <div><br></div>
+                    <div class="text012">这一年</div>
+                    <div class="text012">
+                        一共发送了
+                        <span style="color: brown;">363</span> 个表情包
+                    </div>
+                    <div class="text012">宝最常用的表情包是</div>
+                    <img src="http://vweixinf.tc.qq.com/110/20401/stodownload?m=4740e45e76ab08f16f5bfbc9b9cc26df&amp;filekey=30450201010431302f02016e04025348042034373430653435653736616230386631366635626662633962396363323664660204008a0ac8040d00000004627466730000000131&amp;hy=SH&amp;storeid=323032323035323532303032323830303062313133313638343633383637333833376230306230303030303036653031303034666231&amp;ef=1&amp;bizid=1022"
+                        class="emoji">
+                    <div class="text012">
+                        一共
+                        <span style="color: brown;">18</span>次
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section" style="text-align: center;display:flex;justify-content: center;align-items: center;">
+            <h1 style="color: #f16b9a;">我爱我的倩宝❤❤❤520快乐</h1>
+            <img src="avatar/legs.png" style="width: 40%;object-fit: contain;" />
+        </div>
+        <div class="section" style="text-align: center;display:flex;justify-content: center;align-items: center;">
+            <div id="wechatClick" onclick="clickMe()">
+                <h1 style="color: white;">点我<img src="avatar/clickme.png" style="width: 10%;object-fit: contain;" />试试~</h1>
+            </div>
+            <div id="wechatDisplay" style="display: none;">
+                <div class="text112">恭喜🌹宝宝发现了彩蛋</div>
+                <div class="text112">嘿嘿 功能没做完先做成彩蛋叭</div>
+                <div class="text112">WeChat聊天频率统计</div>
+                <div class="text112"></div>
+                <div class="text112"></div>
+                <div id="calendar-chart" class="calendar-chart"></div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function clickMe() {
+            document.getElementById('wechatClick').style.display = 'none';
+            document.getElementById('wechatDisplay').style.display = 'block';
+        }
+    </script>
+    <script>
+        // JavaScript 代码用于生成聊天内容和雪花动画
+        document.addEventListener('DOMContentLoaded', function() {
+            const snowContainer = document.getElementById('snow');
+            // 生成雪花动画
+            for (let i = 0; i < 50; i++) {
+                const snowflake = document.createElement('div');
+                snowflake.className = 'snowflake';
+                var ran = Math.random();
+                var ran0 = 1 - ran;
+                snowflake.style.left = `${Math.random() * 150}vw`;
+                snowflake.style.animationDuration = `${ran0  * 20 + 7}s`;
+                snowflake.style.setProperty('--animation-order', i);
+
+                // 设置雪花的随机大小
+                const size = ran * 20 + 10; // 随机大小在 10 到 30 之间
+                snowflake.style.width = `${size}px`;
+                snowflake.style.height = `${size}px`;
+
+                snowContainer.appendChild(snowflake);
+            }
+        });
+
+        function createSnowflake(top, left) {
+            const snowflake = document.createElement('div');
+            snowflake.className = 'snowflake0';
+            snowflake.style.top = `${top}vh`;
+            snowflake.style.left = `${left}vw`;
+            // 设置雪花的随机大小
+            const size = Math.random() * 20 + 10; // 随机大小在 10 到 30 之间
+            snowflake.style.width = `${size}px`;
+            snowflake.style.height = `${size}px`;
+            document.body.appendChild(snowflake);
+        }
+    </script>
+    <script>
+        var chart = echarts.init(document.getElementById('word_cloud'), 'white', {
+            renderer: 'canvas'
+        });
+        var result = {
+            "animation": true,
+            "animationThreshold": 2000,
+            "animationDuration": 1000,
+            "animationEasing": "cubicOut",
+            "animationDelay": 0,
+            "animationDurationUpdate": 300,
+            "animationEasingUpdate": "cubicOut",
+            "animationDelayUpdate": 0,
+            "aria": {
+                "enabled": false
+            },
+            "color": [
+                "#5470c6",
+                "#91cc75",
+                "#fac858",
+                "#ee6666",
+                "#73c0de",
+                "#3ba272",
+                "#fc8452",
+                "#9a60b4",
+                "#ea7ccc"
+            ],
+            "series": [{
+                "type": "wordCloud",
+                "name": "\u804a\u5929\u6587\u5b57",
+                "shape": "circle",
+                "rotationRange": [-90,
+                    90
+                ],
+                "rotationStep": 45,
+                "girdSize": 20,
+                "sizeRange": [
+                    5,
+                    40
+                ],
+                "data": [{
+                        "name": "\u4eb2\u4eb2",
+                        "value": 205,
+                        "textStyle": {
+                            "color": "rgb(30,50,136)"
+                        }
+                    },
+                    {
+                        "name": "\u5b9d\u5b9d",
+                        "value": 145,
+                        "textStyle": {
+                            "color": "rgb(111,55,128)"
+                        }
+                    },
+                    {
+                        "name": "\u94c1\u67f1",
+                        "value": 138,
+                        "textStyle": {
+                            "color": "rgb(11,106,52)"
+                        }
+                    },
+                    {
+                        "name": "\u54c8\u54c8\u54c8",
+                        "value": 102,
+                        "textStyle": {
+                            "color": "rgb(146,79,127)"
+                        }
+                    },
+                    {
+                        "name": "\u665a\u4e0a",
+                        "value": 100,
+                        "textStyle": {
+                            "color": "rgb(118,83,3)"
+                        }
+                    },
+                    {
+                        "name": "\u54c8\u54c8\u54c8\u54c8",
+                        "value": 81,
+                        "textStyle": {
+                            "color": "rgb(5,116,82)"
+                        }
+                    },
+                    {
+                        "name": "\u660e\u5929",
+                        "value": 75,
+                        "textStyle": {
+                            "color": "rgb(157,141,37)"
+                        }
+                    },
+                    {
+                        "name": "\u611f\u89c9",
+                        "value": 67,
+                        "textStyle": {
+                            "color": "rgb(102,126,134)"
+                        }
+                    },
+                    {
+                        "name": "\u559c\u6b22",
+                        "value": 58,
+                        "textStyle": {
+                            "color": "rgb(128,2,119)"
+                        }
+                    },
+                    {
+                        "name": "\u56de\u5bb6",
+                        "value": 54,
+                        "textStyle": {
+                            "color": "rgb(72,145,82)"
+                        }
+                    },
+                    {
+                        "name": "\u4e0b\u73ed",
+                        "value": 51,
+                        "textStyle": {
+                            "color": "rgb(25,95,121)"
+                        }
+                    },
+                    {
+                        "name": "\u62e5\u62b1",
+                        "value": 51,
+                        "textStyle": {
+                            "color": "rgb(153,31,157)"
+                        }
+                    },
+                    {
+                        "name": "\u516c\u53f8",
+                        "value": 48,
+                        "textStyle": {
+                            "color": "rgb(116,95,48)"
+                        }
+                    },
+                    {
+                        "name": "\u76b1\u7709",
+                        "value": 48,
+                        "textStyle": {
+                            "color": "rgb(99,102,23)"
+                        }
+                    },
+                    {
+                        "name": "\u4e0a\u73ed",
+                        "value": 46,
+                        "textStyle": {
+                            "color": "rgb(32,27,69)"
+                        }
+                    },
+                    {
+                        "name": "\u7231\u5fc3",
+                        "value": 45,
+                        "textStyle": {
+                            "color": "rgb(64,44,45)"
+                        }
+                    },
+                    {
+                        "name": "\u4e0d\u7528",
+                        "value": 42,
+                        "textStyle": {
+                            "color": "rgb(142,111,160)"
+                        }
+                    },
+                    {
+                        "name": "\u65f6\u95f4",
+                        "value": 42,
+                        "textStyle": {
+                            "color": "rgb(115,16,115)"
+                        }
+                    },
+                    {
+                        "name": "\u5403\u996d",
+                        "value": 42,
+                        "textStyle": {
+                            "color": "rgb(116,39,20)"
+                        }
+                    },
+                    {
+                        "name": "\u563b\u563b",
+                        "value": 41,
+                        "textStyle": {
+                            "color": "rgb(160,39,144)"
+                        }
+                    },
+                    {
+                        "name": "\u5e94\u8be5",
+                        "value": 40,
+                        "textStyle": {
+                            "color": "rgb(118,96,109)"
+                        }
+                    },
+                    {
+                        "name": "\u4f11\u606f",
+                        "value": 39,
+                        "textStyle": {
+                            "color": "rgb(71,2,113)"
+                        }
+                    },
+                    {
+                        "name": "\u7834\u6d95\u4e3a\u7b11",
+                        "value": 39,
+                        "textStyle": {
+                            "color": "rgb(78,70,111)"
+                        }
+                    },
+                    {
+                        "name": "\u4e2d\u5348",
+                        "value": 39,
+                        "textStyle": {
+                            "color": "rgb(146,11,53)"
+                        }
+                    },
+                    {
+                        "name": "\u6628\u5929",
+                        "value": 38,
+                        "textStyle": {
+                            "color": "rgb(90,152,77)"
+                        }
+                    },
+                    {
+                        "name": "\u5730\u65b9",
+                        "value": 37,
+                        "textStyle": {
+                            "color": "rgb(110,153,154)"
+                        }
+                    },
+                    {
+                        "name": "\u597d\u770b",
+                        "value": 36,
+                        "textStyle": {
+                            "color": "rgb(133,108,23)"
+                        }
+                    },
+                    {
+                        "name": "\u545c\u545c",
+                        "value": 36,
+                        "textStyle": {
+                            "color": "rgb(64,79,159)"
+                        }
+                    },
+                    {
+                        "name": "\u624b\u673a",
+                        "value": 35,
+                        "textStyle": {
+                            "color": "rgb(106,121,85)"
+                        }
+                    },
+                    {
+                        "name": "\u697c\u4e0b",
+                        "value": 35,
+                        "textStyle": {
+                            "color": "rgb(11,7,80)"
+                        }
+                    },
+                    {
+                        "name": "\u8001\u516c",
+                        "value": 35,
+                        "textStyle": {
+                            "color": "rgb(146,8,59)"
+                        }
+                    },
+                    {
+                        "name": "\u51e0\u70b9",
+                        "value": 33,
+                        "textStyle": {
+                            "color": "rgb(136,62,12)"
+                        }
+                    },
+                    {
+                        "name": "\u4e00\u70b9",
+                        "value": 32,
+                        "textStyle": {
+                            "color": "rgb(123,28,40)"
+                        }
+                    },
+                    {
+                        "name": "\u563f\u563f",
+                        "value": 31,
+                        "textStyle": {
+                            "color": "rgb(158,109,9)"
+                        }
+                    },
+                    {
+                        "name": "\u5206\u949f",
+                        "value": 31,
+                        "textStyle": {
+                            "color": "rgb(46,123,56)"
+                        }
+                    },
+                    {
+                        "name": "\u5f00\u8f66",
+                        "value": 30,
+                        "textStyle": {
+                            "color": "rgb(15,43,157)"
+                        }
+                    },
+                    {
+                        "name": "\u4e0b\u5348",
+                        "value": 30,
+                        "textStyle": {
+                            "color": "rgb(69,106,36)"
+                        }
+                    },
+                    {
+                        "name": "\u54e5\u54e5",
+                        "value": 30,
+                        "textStyle": {
+                            "color": "rgb(99,138,80)"
+                        }
+                    },
+                    {
+                        "name": "\u540c\u4e8b",
+                        "value": 29,
+                        "textStyle": {
+                            "color": "rgb(102,101,80)"
+                        }
+                    },
+                    {
+                        "name": "\u4e0d\u60f3",
+                        "value": 29,
+                        "textStyle": {
+                            "color": "rgb(149,99,0)"
+                        }
+                    },
+                    {
+                        "name": "\u56de\u6765",
+                        "value": 28,
+                        "textStyle": {
+                            "color": "rgb(24,67,129)"
+                        }
+                    },
+                    {
+                        "name": "\u5f00\u5fc3",
+                        "value": 27,
+                        "textStyle": {
+                            "color": "rgb(135,41,15)"
+                        }
+                    },
+                    {
+                        "name": "\u771f\u7684",
+                        "value": 27,
+                        "textStyle": {
+                            "color": "rgb(6,50,135)"
+                        }
+                    },
+                    {
+                        "name": "ok",
+                        "value": 26,
+                        "textStyle": {
+                            "color": "rgb(131,127,76)"
+                        }
+                    },
+                    {
+                        "name": "\u89c6\u9891",
+                        "value": 26,
+                        "textStyle": {
+                            "color": "rgb(22,122,137)"
+                        }
+                    },
+                    {
+                        "name": "\u804a\u5929",
+                        "value": 25,
+                        "textStyle": {
+                            "color": "rgb(111,91,107)"
+                        }
+                    },
+                    {
+                        "name": "\u5730\u94c1",
+                        "value": 25,
+                        "textStyle": {
+                            "color": "rgb(154,152,111)"
+                        }
+                    },
+                    {
+                        "name": "\u7535\u8111",
+                        "value": 25,
+                        "textStyle": {
+                            "color": "rgb(78,137,86)"
+                        }
+                    },
+                    {
+                        "name": "\u540c\u5b66",
+                        "value": 24,
+                        "textStyle": {
+                            "color": "rgb(27,128,114)"
+                        }
+                    },
+                    {
+                        "name": "\u4e00\u4f1a",
+                        "value": 23,
+                        "textStyle": {
+                            "color": "rgb(72,69,38)"
+                        }
+                    },
+                    {
+                        "name": "\u4e0b\u6b21",
+                        "value": 23,
+                        "textStyle": {
+                            "color": "rgb(157,153,69)"
+                        }
+                    },
+                    {
+                        "name": "\u52a0\u73ed",
+                        "value": 23,
+                        "textStyle": {
+                            "color": "rgb(94,73,124)"
+                        }
+                    },
+                    {
+                        "name": "\u554a\u554a\u554a",
+                        "value": 23,
+                        "textStyle": {
+                            "color": "rgb(103,81,90)"
+                        }
+                    },
+                    {
+                        "name": "\u670b\u53cb",
+                        "value": 22,
+                        "textStyle": {
+                            "color": "rgb(157,109,144)"
+                        }
+                    },
+                    {
+                        "name": "\u5c0f\u65f6",
+                        "value": 22,
+                        "textStyle": {
+                            "color": "rgb(124,27,149)"
+                        }
+                    },
+                    {
+                        "name": "\u5468\u672b",
+                        "value": 21,
+                        "textStyle": {
+                            "color": "rgb(49,78,113)"
+                        }
+                    },
+                    {
+                        "name": "\u65e9\u4e0a",
+                        "value": 21,
+                        "textStyle": {
+                            "color": "rgb(142,129,15)"
+                        }
+                    },
+                    {
+                        "name": "\u7279\u522b",
+                        "value": 21,
+                        "textStyle": {
+                            "color": "rgb(74,82,17)"
+                        }
+                    },
+                    {
+                        "name": "\u6ca1\u4e8b",
+                        "value": 21,
+                        "textStyle": {
+                            "color": "rgb(116,145,98)"
+                        }
+                    },
+                    {
+                        "name": "\u6d4e\u5357",
+                        "value": 21,
+                        "textStyle": {
+                            "color": "rgb(135,53,79)"
+                        }
+                    },
+                    {
+                        "name": "\u6296\u97f3",
+                        "value": 20,
+                        "textStyle": {
+                            "color": "rgb(22,20,131)"
+                        }
+                    },
+                    {
+                        "name": "\u4e24\u5929",
+                        "value": 20,
+                        "textStyle": {
+                            "color": "rgb(79,112,133)"
+                        }
+                    },
+                    {
+                        "name": "\u706b\u8f66",
+                        "value": 20,
+                        "textStyle": {
+                            "color": "rgb(111,133,4)"
+                        }
+                    },
+                    {
+                        "name": "\u5fae\u4fe1",
+                        "value": 19,
+                        "textStyle": {
+                            "color": "rgb(14,116,101)"
+                        }
+                    },
+                    {
+                        "name": "\u6211\u5bb6",
+                        "value": 19,
+                        "textStyle": {
+                            "color": "rgb(73,88,129)"
+                        }
+                    },
+                    {
+                        "name": "\u8bd5\u8bd5",
+                        "value": 19,
+                        "textStyle": {
+                            "color": "rgb(126,30,43)"
+                        }
+                    },
+                    {
+                        "name": "\u6211\u8981",
+                        "value": 19,
+                        "textStyle": {
+                            "color": "rgb(124,101,131)"
+                        }
+                    },
+                    {
+                        "name": "\u80af\u5b9a",
+                        "value": 19,
+                        "textStyle": {
+                            "color": "rgb(121,32,87)"
+                        }
+                    },
+                    {
+                        "name": "\u7b3c\u5b50",
+                        "value": 19,
+                        "textStyle": {
+                            "color": "rgb(159,76,156)"
+                        }
+                    },
+                    {
+                        "name": "520",
+                        "value": 19,
+                        "textStyle": {
+                            "color": "rgb(132,16,82)"
+                        }
+                    },
+                    {
+                        "name": "\u98de\u98de\u54e5",
+                        "value": 19,
+                        "textStyle": {
+                            "color": "rgb(156,95,113)"
+                        }
+                    },
+                    {
+                        "name": "\u5206\u4eab",
+                        "value": 18,
+                        "textStyle": {
+                            "color": "rgb(33,127,48)"
+                        }
+                    },
+                    {
+                        "name": "\u6709\u7a7a",
+                        "value": 18,
+                        "textStyle": {
+                            "color": "rgb(84,89,0)"
+                        }
+                    },
+                    {
+                        "name": "\u597d\u597d",
+                        "value": 18,
+                        "textStyle": {
+                            "color": "rgb(134,148,156)"
+                        }
+                    },
+                    {
+                        "name": "\u5916\u9762",
+                        "value": 18,
+                        "textStyle": {
+                            "color": "rgb(156,30,126)"
+                        }
+                    },
+                    {
+                        "name": "\u5468\u516d",
+                        "value": 18,
+                        "textStyle": {
+                            "color": "rgb(63,91,152)"
+                        }
+                    },
+                    {
+                        "name": "\u4e24\u4e2a",
+                        "value": 18,
+                        "textStyle": {
+                            "color": "rgb(128,72,39)"
+                        }
+                    },
+                    {
+                        "name": "\u7740\u6025",
+                        "value": 18,
+                        "textStyle": {
+                            "color": "rgb(68,20,84)"
+                        }
+                    },
+                    {
+                        "name": "\u563f\u563f\u563f",
+                        "value": 18,
+                        "textStyle": {
+                            "color": "rgb(52,142,133)"
+                        }
+                    },
+                    {
+                        "name": "\u6709\u6ca1\u6709",
+                        "value": 17,
+                        "textStyle": {
+                            "color": "rgb(151,24,117)"
+                        }
+                    },
+                    {
+                        "name": "\u597d\u50cf",
+                        "value": 17,
+                        "textStyle": {
+                            "color": "rgb(31,128,100)"
+                        }
+                    },
+                    {
+                        "name": "\u7ed3\u675f",
+                        "value": 17,
+                        "textStyle": {
+                            "color": "rgb(55,114,149)"
+                        }
+                    },
+                    {
+                        "name": "\u4e1c\u897f",
+                        "value": 17,
+                        "textStyle": {
+                            "color": "rgb(135,13,28)"
+                        }
+                    },
+                    {
+                        "name": "\u56de\u53bb",
+                        "value": 17,
+                        "textStyle": {
+                            "color": "rgb(132,58,58)"
+                        }
+                    },
+                    {
+                        "name": "\u6253\u5f00",
+                        "value": 17,
+                        "textStyle": {
+                            "color": "rgb(39,95,103)"
+                        }
+                    },
+                    {
+                        "name": "\u8001\u5e08",
+                        "value": 16,
+                        "textStyle": {
+                            "color": "rgb(26,15,63)"
+                        }
+                    },
+                    {
+                        "name": "\u8def\u4e0a",
+                        "value": 16,
+                        "textStyle": {
+                            "color": "rgb(108,131,39)"
+                        }
+                    },
+                    {
+                        "name": "\u63d0\u524d",
+                        "value": 16,
+                        "textStyle": {
+                            "color": "rgb(87,105,120)"
+                        }
+                    },
+                    {
+                        "name": "\u597d\u5403",
+                        "value": 16,
+                        "textStyle": {
+                            "color": "rgb(37,138,146)"
+                        }
+                    },
+                    {
+                        "name": "\u60f3\u60f3",
+                        "value": 16,
+                        "textStyle": {
+                            "color": "rgb(147,147,18)"
+                        }
+                    },
+                    {
+                        "name": "\u4e0a\u8bfe",
+                        "value": 15,
+                        "textStyle": {
+                            "color": "rgb(6,75,16)"
+                        }
+                    },
+                    {
+                        "name": "\u665a\u5b89",
+                        "value": 15,
+                        "textStyle": {
+                            "color": "rgb(52,120,104)"
+                        }
+                    },
+                    {
+                        "name": "\u529e\u516c\u5ba4",
+                        "value": 15,
+                        "textStyle": {
+                            "color": "rgb(104,85,20)"
+                        }
+                    },
+                    {
+                        "name": "\u4e00\u697c",
+                        "value": 15,
+                        "textStyle": {
+                            "color": "rgb(134,32,46)"
+                        }
+                    },
+                    {
+                        "name": "\u5e72\u561b",
+                        "value": 15,
+                        "textStyle": {
+                            "color": "rgb(160,109,111)"
+                        }
+                    },
+                    {
+                        "name": "\u7535\u8bdd",
+                        "value": 15,
+                        "textStyle": {
+                            "color": "rgb(79,12,73)"
+                        }
+                    },
+                    {
+                        "name": "\u65c1\u8fb9",
+                        "value": 15,
+                        "textStyle": {
+                            "color": "rgb(70,101,112)"
+                        }
+                    },
+                    {
+                        "name": "\u4eca\u665a",
+                        "value": 15,
+                        "textStyle": {
+                            "color": "rgb(84,79,152)"
+                        }
+                    },
+                    {
+                        "name": "\u5a01\u6d77",
+                        "value": 14,
+                        "textStyle": {
+                            "color": "rgb(115,127,22)"
+                        }
+                    },
+                    {
+                        "name": "\u8003\u8bd5",
+                        "value": 14,
+                        "textStyle": {
+                            "color": "rgb(119,81,49)"
+                        }
+                    }
+                ],
+                "drawOutOfBound": false,
+                "textStyle": {
+                    "emphasis": {}
+                }
+            }],
+            "legend": [{
+                "data": [],
+                "selected": {}
+            }],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "enterable": false,
+                "confine": false,
+                "appendToBody": false,
+                "transitionDuration": 0.4,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5,
+                "order": "seriesAsc"
+            }
+        };
+        // 获取屏幕宽度
+        const screenWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+
+        // 根据屏幕宽度设置字体范围
+        let fontSizeRange;
+        if (screenWidth < 768) { // 手机屏幕
+            fontSizeRange = [5, 40];
+        } else { // 电脑屏幕
+            fontSizeRange = [10, 100];
+        }
+        result.series[0].sizeRange = fontSizeRange;
+        chart.setOption(result);
+    </script>
+    <script>
+        $(document).ready(function() {
+            $('#fullpage').fullpage();
+        });
+    </script>
+    <script type="text/javascript">
+        function getRTime() {
+            var tt = document.getElementById("first_time").innerText;
+            var EndTime = new Date(tt);
+            var NowTime = new Date();
+            var t = NowTime.getTime() - EndTime.getTime();
+            var d = Math.floor(t / 1000 / 60 / 60 / 24);
+            var h = Math.floor(t / 1000 / 60 / 60 % 24);
+            var m = Math.floor(t / 1000 / 60 % 60);
+            var s = Math.floor(t / 1000 % 60);
+            document.getElementById("t_d").innerHTML = d + " 天";
+            document.getElementById("t_h").innerHTML = h + " 时";
+            document.getElementById("t_m").innerHTML = m + " 分";
+            document.getElementById("t_s").innerHTML = s + " 秒";
+        }
+        setInterval(getRTime, 1000);
+    </script>
+    <script>
+        var chart_51ebd4312946429e9c32b2b55b96a479 = echarts.init(
+            document.getElementById('calendar-chart'), 'white', {
+                renderer: 'canvas'
+            });
+        var result = {
+            "animation": true,
+            "animationThreshold": 2000,
+            "animationDuration": 1000,
+            "animationEasing": "cubicOut",
+            "animationDelay": 0,
+            "animationDurationUpdate": 300,
+            "animationEasingUpdate": "cubicOut",
+            "animationDelayUpdate": 0,
+            "aria": {
+                "enabled": false
+            },
+            "color": [
+                "#5470c6",
+                "#91cc75",
+                "#fac858",
+                "#ee6666",
+                "#73c0de",
+                "#3ba272",
+                "#fc8452",
+                "#9a60b4",
+                "#ea7ccc"
+            ],
+            "series": [{
+                "type": "heatmap",
+                "coordinateSystem": "calendar",
+                "data": [
+                    [
+                        "2023-12-16",
+                        125
+                    ],
+                    [
+                        "2023-12-17",
+                        42
+                    ],
+                    [
+                        "2023-12-18",
+                        24
+                    ],
+                    [
+                        "2023-12-19",
+                        22
+                    ],
+                    [
+                        "2023-12-20",
+                        28
+                    ],
+                    [
+                        "2023-12-22",
+                        57
+                    ],
+                    [
+                        "2023-12-23",
+                        33
+                    ],
+                    [
+                        "2023-12-24",
+                        5
+                    ],
+                    [
+                        "2023-12-25",
+                        39
+                    ],
+                    [
+                        "2023-12-26",
+                        75
+                    ],
+                    [
+                        "2023-12-27",
+                        60
+                    ],
+                    [
+                        "2023-12-28",
+                        34
+                    ],
+                    [
+                        "2023-12-29",
+                        32
+                    ],
+                    [
+                        "2023-12-30",
+                        23
+                    ],
+                    [
+                        "2023-12-31",
+                        32
+                    ],
+                    [
+                        "2024-01-01",
+                        47
+                    ],
+                    [
+                        "2024-01-03",
+                        53
+                    ],
+                    [
+                        "2024-01-04",
+                        24
+                    ],
+                    [
+                        "2024-01-05",
+                        43
+                    ],
+                    [
+                        "2024-01-06",
+                        3
+                    ],
+                    [
+                        "2024-01-07",
+                        20
+                    ],
+                    [
+                        "2024-01-09",
+                        40
+                    ],
+                    [
+                        "2024-01-10",
+                        44
+                    ],
+                    [
+                        "2024-01-11",
+                        26
+                    ],
+                    [
+                        "2024-01-12",
+                        39
+                    ],
+                    [
+                        "2024-01-13",
+                        17
+                    ],
+                    [
+                        "2024-01-14",
+                        20
+                    ],
+                    [
+                        "2024-01-15",
+                        140
+                    ],
+                    [
+                        "2024-01-16",
+                        18
+                    ],
+                    [
+                        "2024-01-17",
+                        35
+                    ],
+                    [
+                        "2024-01-18",
+                        36
+                    ],
+                    [
+                        "2024-01-19",
+                        16
+                    ],
+                    [
+                        "2024-01-20",
+                        36
+                    ],
+                    [
+                        "2024-01-21",
+                        24
+                    ],
+                    [
+                        "2024-01-22",
+                        81
+                    ],
+                    [
+                        "2024-01-23",
+                        21
+                    ],
+                    [
+                        "2024-01-24",
+                        89
+                    ],
+                    [
+                        "2024-01-25",
+                        5
+                    ],
+                    [
+                        "2024-01-26",
+                        20
+                    ],
+                    [
+                        "2024-01-27",
+                        57
+                    ],
+                    [
+                        "2024-01-28",
+                        74
+                    ],
+                    [
+                        "2024-01-29",
+                        88
+                    ],
+                    [
+                        "2024-01-30",
+                        59
+                    ],
+                    [
+                        "2024-01-31",
+                        48
+                    ],
+                    [
+                        "2024-02-01",
+                        53
+                    ],
+                    [
+                        "2024-02-02",
+                        39
+                    ],
+                    [
+                        "2024-02-03",
+                        36
+                    ],
+                    [
+                        "2024-02-04",
+                        47
+                    ],
+                    [
+                        "2024-02-05",
+                        83
+                    ],
+                    [
+                        "2024-02-06",
+                        74
+                    ],
+                    [
+                        "2024-02-07",
+                        52
+                    ],
+                    [
+                        "2024-02-08",
+                        40
+                    ],
+                    [
+                        "2024-02-09",
+                        55
+                    ],
+                    [
+                        "2024-02-10",
+                        47
+                    ],
+                    [
+                        "2024-02-11",
+                        49
+                    ],
+                    [
+                        "2024-02-12",
+                        72
+                    ],
+                    [
+                        "2024-02-13",
+                        34
+                    ],
+                    [
+                        "2024-02-14",
+                        64
+                    ],
+                    [
+                        "2024-02-15",
+                        4
+                    ],
+                    [
+                        "2024-02-16",
+                        41
+                    ],
+                    [
+                        "2024-02-18",
+                        63
+                    ],
+                    [
+                        "2024-02-19",
+                        35
+                    ],
+                    [
+                        "2024-02-20",
+                        62
+                    ],
+                    [
+                        "2024-02-21",
+                        42
+                    ],
+                    [
+                        "2024-02-22",
+                        37
+                    ],
+                    [
+                        "2024-02-23",
+                        29
+                    ],
+                    [
+                        "2024-02-24",
+                        15
+                    ],
+                    [
+                        "2024-02-25",
+                        37
+                    ],
+                    [
+                        "2024-02-26",
+                        113
+                    ],
+                    [
+                        "2024-02-29",
+                        50
+                    ],
+                    [
+                        "2024-03-01",
+                        94
+                    ],
+                    [
+                        "2024-03-02",
+                        6
+                    ],
+                    [
+                        "2024-03-03",
+                        83
+                    ],
+                    [
+                        "2024-03-04",
+                        56
+                    ],
+                    [
+                        "2024-03-05",
+                        99
+                    ],
+                    [
+                        "2024-03-06",
+                        89
+                    ],
+                    [
+                        "2024-03-07",
+                        62
+                    ],
+                    [
+                        "2024-03-08",
+                        65
+                    ],
+                    [
+                        "2024-03-09",
+                        82
+                    ],
+                    [
+                        "2024-03-10",
+                        56
+                    ],
+                    [
+                        "2024-03-11",
+                        134
+                    ],
+                    [
+                        "2024-03-12",
+                        97
+                    ],
+                    [
+                        "2024-03-13",
+                        150
+                    ],
+                    [
+                        "2024-03-14",
+                        52
+                    ],
+                    [
+                        "2024-03-15",
+                        98
+                    ],
+                    [
+                        "2024-03-16",
+                        125
+                    ],
+                    [
+                        "2024-03-17",
+                        76
+                    ],
+                    [
+                        "2024-03-18",
+                        51
+                    ],
+                    [
+                        "2024-03-19",
+                        68
+                    ],
+                    [
+                        "2024-03-20",
+                        82
+                    ],
+                    [
+                        "2024-03-21",
+                        156
+                    ],
+                    [
+                        "2024-03-22",
+                        75
+                    ],
+                    [
+                        "2024-03-23",
+                        28
+                    ],
+                    [
+                        "2024-03-24",
+                        61
+                    ],
+                    [
+                        "2024-03-25",
+                        99
+                    ],
+                    [
+                        "2024-03-26",
+                        112
+                    ],
+                    [
+                        "2024-03-27",
+                        76
+                    ],
+                    [
+                        "2024-03-28",
+                        103
+                    ],
+                    [
+                        "2024-03-29",
+                        106
+                    ],
+                    [
+                        "2024-03-30",
+                        9
+                    ],
+                    [
+                        "2024-04-01",
+                        52
+                    ],
+                    [
+                        "2024-04-02",
+                        85
+                    ],
+                    [
+                        "2024-04-03",
+                        72
+                    ],
+                    [
+                        "2024-04-04",
+                        37
+                    ],
+                    [
+                        "2024-04-05",
+                        43
+                    ],
+                    [
+                        "2024-04-06",
+                        69
+                    ],
+                    [
+                        "2024-04-07",
+                        18
+                    ],
+                    [
+                        "2024-04-08",
+                        41
+                    ],
+                    [
+                        "2024-04-09",
+                        43
+                    ],
+                    [
+                        "2024-04-10",
+                        48
+                    ],
+                    [
+                        "2024-04-11",
+                        30
+                    ],
+                    [
+                        "2024-04-12",
+                        63
+                    ],
+                    [
+                        "2024-04-13",
+                        34
+                    ],
+                    [
+                        "2024-04-14",
+                        87
+                    ],
+                    [
+                        "2024-04-15",
+                        44
+                    ],
+                    [
+                        "2024-04-16",
+                        36
+                    ],
+                    [
+                        "2024-04-17",
+                        36
+                    ],
+                    [
+                        "2024-04-18",
+                        18
+                    ],
+                    [
+                        "2024-04-19",
+                        21
+                    ],
+                    [
+                        "2024-04-20",
+                        33
+                    ],
+                    [
+                        "2024-04-21",
+                        57
+                    ],
+                    [
+                        "2024-04-22",
+                        51
+                    ],
+                    [
+                        "2024-04-23",
+                        22
+                    ],
+                    [
+                        "2024-04-24",
+                        6
+                    ],
+                    [
+                        "2024-04-25",
+                        122
+                    ],
+                    [
+                        "2024-04-26",
+                        47
+                    ],
+                    [
+                        "2024-04-27",
+                        16
+                    ],
+                    [
+                        "2024-04-28",
+                        70
+                    ],
+                    [
+                        "2024-04-29",
+                        77
+                    ],
+                    [
+                        "2024-04-30",
+                        89
+                    ],
+                    [
+                        "2024-05-01",
+                        41
+                    ],
+                    [
+                        "2024-05-02",
+                        34
+                    ],
+                    [
+                        "2024-05-03",
+                        62
+                    ],
+                    [
+                        "2024-05-04",
+                        5
+                    ],
+                    [
+                        "2024-05-05",
+                        50
+                    ],
+                    [
+                        "2024-05-06",
+                        60
+                    ],
+                    [
+                        "2024-05-07",
+                        116
+                    ],
+                    [
+                        "2024-05-08",
+                        56
+                    ],
+                    [
+                        "2024-05-09",
+                        50
+                    ],
+                    [
+                        "2024-05-10",
+                        25
+                    ],
+                    [
+                        "2024-05-11",
+                        75
+                    ],
+                    [
+                        "2024-05-12",
+                        74
+                    ],
+                    [
+                        "2024-05-13",
+                        36
+                    ],
+                    [
+                        "2024-05-14",
+                        109
+                    ],
+                    [
+                        "2024-05-15",
+                        42
+                    ],
+                    [
+                        "2024-05-16",
+                        101
+                    ],
+                    [
+                        "2024-05-17",
+                        31
+                    ],
+                    [
+                        "2024-05-18",
+                        4
+                    ],
+                    [
+                        "2024-05-19",
+                        16
+                    ]
+                ],
+                "label": {
+                    "show": false,
+                    "position": "inside",
+                    "margin": 8
+                }
+            }],
+            "legend": [{
+                "data": [
+                    ""
+                ],
+                "selected": {
+                    "": true
+                },
+                "show": false,
+                "padding": 5,
+                "itemGap": 10,
+                "itemWidth": 25,
+                "itemHeight": 14,
+                "backgroundColor": "transparent",
+                "borderColor": "#ccc",
+                "borderWidth": 1,
+                "borderRadius": 0,
+                "pageButtonItemGap": 5,
+                "pageButtonPosition": "end",
+                "pageFormatter": "{current}/{total}",
+                "pageIconColor": "#2f4554",
+                "pageIconInactiveColor": "#aaa",
+                "pageIconSize": 15,
+                "animationDurationUpdate": 800,
+                "selector": false,
+                "selectorPosition": "auto",
+                "selectorItemGap": 7,
+                "selectorButtonGap": 10
+            }],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "enterable": false,
+                "confine": false,
+                "appendToBody": false,
+                "transitionDuration": 0.4,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5,
+                "order": "seriesAsc"
+            },
+            "calendar": {
+                "zlevel": 0,
+                "z": 2,
+                "width": "auto",
+                "orient": "horizontal",
+                "range": [
+                    "2023-12-16",
+                    "2024-05-19"
+                ],
+                "cellSize": 20,
+                "silent": false
+            },
+            "title": [{
+                "show": true,
+                "target": "blank",
+                "subtarget": "blank",
+                "padding": 5,
+                "itemGap": 10,
+                "textAlign": "auto",
+                "textVerticalAlign": "auto",
+                "triggerEvent": false
+            }],
+            "visualMap": {
+                "show": true,
+                "type": "continuous",
+                "min": 3,
+                "max": 156,
+                "inRange": {
+                    "color": [
+                        "#50a3ba",
+                        "#eac763",
+                        "#d94e5d"
+                    ]
+                },
+                "calculable": true,
+                "inverse": false,
+                "splitNumber": 5,
+                "hoverLink": true,
+                "orient": "horizontal",
+                "left": "0px",
+                "bottom": "0px",
+                "padding": 5,
+                "showLabel": true,
+                "itemWidth": 20,
+                "itemHeight": 140,
+                "borderWidth": 0
+            }
+        };
+        // 根据屏幕宽度设置字体范围
+        let cellSize;
+        if (screenWidth < 768) { // 手机屏幕
+            result.calendar.cellSize = 10;
+        } else { // 电脑屏幕
+            result.calendar.cellSize = 15;
+        }
+        chart_51ebd4312946429e9c32b2b55b96a479.setOption(result);
+    </script>
+</body>
+
+</html>
